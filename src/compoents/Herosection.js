@@ -683,9 +683,7 @@ useEffect(() => {
 
           <br />
         </div>
-        <div className="container">
-          <Herosectiontwo />
-        </div>
+        
       </section>
     </div>
   );

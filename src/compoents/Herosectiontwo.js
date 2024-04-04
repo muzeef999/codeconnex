@@ -6,7 +6,7 @@ import { FaPencilRuler } from "react-icons/fa";
 
 const Herosectiontwo = () => {
   return (
-    <div>
+    <div className="hero-section">
       <h1 className="herosectiontwoheading">
         We're not just a team,We're your growth partners Let's achieve amazing
         things together
@@ -29,7 +29,7 @@ const Herosectiontwo = () => {
             <p>Count on us for long-term partnership and unwavering support</p>
           </div>
         </div>
-        <hr style={{ color: "#FFF" }} />
+        <hr style={{ color: "black" }} />
         <div className="parent">
           <div className="num">
             <p className="numbertext">02</p>
@@ -49,7 +49,7 @@ const Herosectiontwo = () => {
             </p>
           </div>
         </div>
-        <hr style={{ color: "#FFF" }} />
+        <hr style={{ color: "black" }} />
         <div className="parent">
           <div className="num">
             <p className="numbertext">03</p>
@@ -69,7 +69,7 @@ const Herosectiontwo = () => {
             </p>
           </div>
         </div>
-        <hr style={{ color: "#FFF" }} />
+        <hr style={{ color: "black" }} />
         <div className="parent">
           <div className="num">
             <p className="numbertext">04</p>
@@ -89,7 +89,7 @@ const Herosectiontwo = () => {
             </p>
           </div>
         </div>
-        <hr style={{ color: "#FFF" }} />
+        <hr style={{ color: "black" }} />
       </div>
     </div>
   );

@@ -283,30 +283,37 @@ a.nav-link {
 .herosectiontwoheading {
   font-size: 60px;
   font-weight: 800;
-  color: #fff;
+  color: #000000;
+}
+.hero-section{
+  color: black !important;
 }
 .parent {
   display: flex;
   justify-content: space-between;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .numbertext {
   font-weight: 700;
   font-size: 20px;
+  color: black;
 }
 .p-data p {
   width: 300px;
+  color: black;
 }
 
 .herosectiontwoicon {
   font-size: 30px;
+  color: black;
 }
 
 .rockectgo {
   display: flex;
   margin-left: -1000px;
   align-items: center;
+ color: black;
 }
 
 /* separate */
@@ -471,6 +478,7 @@ iframe {
 }
 .parent p {
   width: 500px !important;
+  color: black;
 }
 .p-data div {
   margin-left: 10px;
@@ -918,8 +926,7 @@ iframe {
 .cc {
   font-size: 60px !important;
   font-weight: 800;
-  color: rgb(15, 83, 162);
-  
+  color:#27b9ec;
 }
 
 /* child one start */
@@ -1104,6 +1111,7 @@ box-shadow:  5px 5px 12px #5a5a5a,
   font-size:60px ;
   font-weight: 800;
   margin-top: 50px;
+  color: #27b9ec;
 }
 .slick-arrow{
   position: absolute;
@@ -1129,12 +1137,12 @@ box-shadow:  5px 5px 12px #5a5a5a,
   background-size:100% 40%;
   background-repeat: no-repeat;
 } */
-.clint-bg {
+/* .clint-bg {
   background-image: url(/_next/static/media/client-bg.1629b669.jpg);
   background-position: 4% 49%;
   background-size: 101% 91%;
   background-repeat: no-repeat;
-} 
+}  */
 
 .client_cover{
   height: 150vh;

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Appbar from "@/compoents/Appbar";
 import clients from "../clients/clients.module.css";
 import React, { useEffect } from "react";
@@ -15,12 +15,12 @@ import neon from "../asserts/companylogo/neontribe.png";
 import cafe from "../asserts/cafe2.webp";
 import Image from "next/image";
 import Footer from "@/compoents/Footer";
-import lucas from "../asserts/logo/lucasinterio.png"
-import bouncer from "../asserts/logo/bouncer.webp"
-import namasivaya from "../asserts/logo/namasivaya.png"
-import tdp from "../asserts/logo/tdp.png"
-import trutoasty from "../asserts/logo/trutoasty.png"
-import swayambh from "../asserts/logo/swayambh.png"
+import lucas from "../asserts/logo/lucasinterio.png";
+import bouncer from "../asserts/logo/bouncer.webp";
+import namasivaya from "../asserts/logo/namasivaya.png";
+import tdp from "../asserts/logo/tdp.png";
+import trutoasty from "../asserts/logo/trutoasty.png";
+import swayambh from "../asserts/logo/swayambh.png";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
@@ -36,8 +36,6 @@ const Clients = () => {
         scrub: 1.5,
         invalidateOnRefresh: true,
         pin: true,
-        markers:true
-      
       },
     });
     // Add your animations to the timeline
@@ -65,8 +63,7 @@ const Clients = () => {
           experiences for peak performance and impact.
         </h1>
 
-
-{/* <div className="client_main">
+        {/* <div className="client_main">
   <div className="clint_fix">
     <div className="client_cover">
       <div className="second_client">
@@ -143,7 +140,7 @@ const Clients = () => {
               <a href="https://www.tyent.co.in/" target="_blank">
                 <div className="lol">
                   <div className="img">
-                    <Image src={bouncer} className="bounce"/>
+                    <Image src={bouncer} className="bounce" />
                   </div>
                 </div>
               </a>
@@ -152,16 +149,19 @@ const Clients = () => {
               <a href="https://trutastes.in/" target="_blank">
                 <div className="lol">
                   <div className="img">
-                    <Image src={trutoasty} className="bounce"/>
+                    <Image src={trutoasty} className="bounce" />
                   </div>
                 </div>
               </a>
             </div>
             <div className="col-md-4 graph line-4 ">
-              <a href="https://swayambh-edu.com/points-calculator.html" target="_blank">
+              <a
+                href="https://swayambh-edu.com/points-calculator.html"
+                target="_blank"
+              >
                 <div className="lol">
                   <div className="img">
-                    <Image src={swayambh} className="bounce"/>
+                    <Image src={swayambh} className="bounce" />
                   </div>
                 </div>
               </a>
@@ -170,22 +170,20 @@ const Clients = () => {
               <a href="https://namasivayaenterprises.com/" target="_blank">
                 <div className="lol">
                   <div className="img">
-                    <Image src={namasivaya} className="bounce"/>
+                    <Image src={namasivaya} className="bounce" />
                   </div>
                 </div>
               </a>
             </div>
             <div className="col-md-4 graph line-4 ">
-              <a href="" >
+              <a href="">
                 <div className="lol">
                   <div className="img">
-                    <Image src={tdp} className="bounce"/>
+                    <Image src={tdp} className="bounce" />
                   </div>
                 </div>
               </a>
             </div>
-            
-            
 
             <div className="col-md-4 graph line-4">
               <a href="https://yelurihospitals.com/index.html" target="_blank">
@@ -198,7 +196,7 @@ const Clients = () => {
             </div>
 
             <div className="col-md-4 graph lol-3 line-4">
-              <a href="" >
+              <a href="">
                 <div className="lol">
                   <div className="img">
                     <Image src={global} />
@@ -206,7 +204,6 @@ const Clients = () => {
                 </div>
               </a>
             </div>
-            
 
             <div className="col-md-4 graph">
               <a href="" target="_blank">
