@@ -1,0 +1,10 @@
+// {
+//   "extends": "next/core-web-vitals"
+// }
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "next/no-css-tags": "off", // Example of disabling a rule
+    // Add more rules to disable as needed
+  }
+}

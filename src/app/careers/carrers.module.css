@@ -1,0 +1,66 @@
+
+  .careers_content h1{
+  font-size: 45px;
+  font-weight: 900;
+  margin-top:60px;
+   
+  }
+  .careers_content{
+    font-size: 19px;
+    font-weight: 600;
+    color: #FFF;
+  }
+  ._careers_second_part{
+    margin-top: 30px;
+   
+  }
+  ._careers_second_part h4{
+  font-weight: 900;
+  margin-bottom:20px;
+   
+  }
+  ._careers_second_part h5{
+    margin-bottom:20px;
+  }
+  ._careers_second_part h3{
+    font-weight: 900;
+  }
+  .cc{
+    color: #27B9EC;
+    margin-top: 20px;
+  }
+  
+  
+  .requirment {
+    width: 100%;
+  }
+
+
+  .first div{ 
+    margin-top: 10px;
+  }
+
+  .second div {
+    margin-top: 10px;
+  }
+
+
+  .first div p{ 
+    margin-left: 10px;
+  }
+
+  .second div p{
+    margin-left: 10px;
+  }
+
+  .careers_data{
+    margin-top: 80px;
+  }
+  .careers_data p{
+    font-weight: 600;
+    width: 1000px;
+    font-size: 19px;
+  }
+  .careers_data p a{
+    text-decoration: none;
+  }

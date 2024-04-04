@@ -1,0 +1,91 @@
+.inputbox{
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    width: 100%;
+}
+.careers_content{
+    color: #FFF;
+}
+
+.secondheading{
+    color: #FFF;
+}
+
+.socialmedia {
+    display: flex;
+  
+}
+
+.socialmediaborder{
+    padding: 10px 10px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.socialmediaborder:hover{
+    padding: 10px 10px;
+    background-color: #27b9ec;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+.input_container {
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Adjust the padding to make space for the icon */
+  .input_box {
+    padding-left: 30px; /* Adjust as needed */
+  }
+
+
+
+  @media screen and (min-width: 1024px) {
+  
+    .headingHome{
+        color: #FFF;
+    }
+
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .headingHome{
+        color: #FFF;
+    }
+
+}
+  
+  /* Styles for mobile phones */
+  @media screen and (max-width: 767px) {
+    .headingHome{
+        color: #FFF;
+        margin-top: -10px;
+    }
+    .careers_content{
+      font-size: 14px;    
+      margin-top: -10px;
+    }
+    .secondheading{
+        font-size: 14px;
+    }
+    .socialmedia{
+        visibility: hidden;
+    }
+    .formcss{
+        margin-top: -50px;
+    }
+
+  }
+  

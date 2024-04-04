@@ -1,0 +1,24 @@
+.inputwrapper{
+  width: 50%;
+  height: auto;
+  margin: 10px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+
+.userInput{
+    padding: 10px 8px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90%;
+}
+
+.loginbutton{
+    padding: 12px 8px;
+    background-color: #27b9ec;
+    color: #FFF;
+    border-radius: 8px;
+}
