@@ -1505,7 +1505,7 @@ const Aboutus = () => {
 </div>
 
 
-<div className="av-content my-5">
+<div className="av-content av_c my-5">
  <div className="contents">
  <h2>Our Values : </h2>
  </div>
@@ -1534,7 +1534,9 @@ const Aboutus = () => {
         </section>
       </section>
 
-      <Footer />
+  <div className="about_foot">
+  <Footer />
+  </div>
     </div>
   );
 };

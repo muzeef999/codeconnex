@@ -73,34 +73,34 @@ const Mobile = () => {
     };
   }, []);
 
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
+  // useEffect(() => {
+  //   gsap.registerPlugin(ScrollTrigger);
 
-    const timeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".work_flow",
-        start: "-170px center",
-        end: "100px center",
-        scrub: 1.5,
-        invalidateOnRefresh: true,
+  //   const timeline = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: ".work_flow",
+  //       start: "-170px center",
+  //       end: "100px center",
+  //       scrub: 1.5,
+  //       invalidateOnRefresh: true,
       
-      },
-    });
-    // Add your animations to the timeline
-    timeline.to(
-      ".work_flow_chart",
-      {
-        y:-150 // Adjusted value for mobile devices
-      },
-    );
-    const cancelFunction = () => {
-      timeline.kill();
-    };
+  //     },
+  //   });
+  //   // Add your animations to the timeline
+  //   timeline.to(
+  //     ".work_flow_chart",
+  //     {
+  //       y:-150 // Adjusted value for mobile devices
+  //     },
+  //   );
+  //   const cancelFunction = () => {
+  //     timeline.kill();
+  //   };
 
-    return () => {
-      cancelFunction();
-    };
-  }, []);
+  //   return () => {
+  //     cancelFunction();
+  //   };
+  // }, []);
 
 
   // for workflow
@@ -612,7 +612,7 @@ const Mobile = () => {
 
       {/* footer data start */}
       {/* team page start */}
-      <div className="teampage_start">
+      {/* <div className="teampage_start">
  
         <div className="Refer">
         <h1 className="text-center">Code Connex Team</h1>
@@ -672,7 +672,7 @@ const Mobile = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* end */}
     </div>

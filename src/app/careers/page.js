@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import tree from "../asserts/Group 117.png";
 import Growth from "../asserts/Group 115.png";
 import Colab from "../asserts/Group 116.png";
@@ -15,25 +15,25 @@ import gsap from "gsap";
 import Footer from "@/compoents/Footer";
 
 const page = () => {
-  useEffect(() => {
-    gsap.to("#Milkyway2", {
-      transformOrigin: "center",
-      ease: "none",
-      scale: 1.2,
-      repeat: -1,
-      yoyo: true,
-      duration: 10,
-    });
+  // useEffect(() => {
+  //   gsap.to("#Milkyway2", {
+  //     transformOrigin: "center",
+  //     ease: "none",
+  //     scale: 1.2,
+  //     repeat: -1,
+  //     yoyo: true,
+  //     duration: 10,
+  //   });
 
-    gsap.to("#wave", {
-      transformOrigin: "center",
-      ease: "none",
-      opacity: 0,
-      repeat: -1,
-      y: "500px",
-      duration: 20,
-    });
-  });
+  //   gsap.to("#wave", {
+  //     transformOrigin: "center",
+  //     ease: "none",
+  //     opacity: 0,
+  //     repeat: -1,
+  //     y: "500px",
+  //     duration: 20,
+  //   });
+  // });
 
   return (
     <div style={{ backgroundColor: "#FFF" }}>

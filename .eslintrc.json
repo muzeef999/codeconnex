@@ -1,4 +1,12 @@
 // {
+//   "extends": "next/core-web-vitals",
+//   "rules": {
+//     "react/no-unescaped-entities": "off",
+//     "jsx-a11y/alt-text": "off"
+//   }
+// }
+
+// {
 //   "extends": "next/core-web-vitals"
 // }
 {
@@ -7,4 +15,4 @@
     "next/no-css-tags": "off", // Example of disabling a rule
     // Add more rules to disable as needed
   }
-}
+} 

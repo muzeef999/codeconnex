@@ -671,7 +671,7 @@ iframe {
   position: relative;
 }
 .scroll-section-inner {
-  height: 420vh !important;
+  height: 120vh !important;
   width: 600vw;
   flex-direction: row;
   position: relative;
@@ -679,7 +679,7 @@ iframe {
   transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 .scroll-section {
-  height: 110vh;
+  height: 100vh;
   width: 100vw;
   display: flex !important;
   align-items: center !important;
@@ -910,15 +910,11 @@ iframe {
 .work_1 div:nth-child(2) {
   width: 220px;
 }
-.workflow-content {
-  /* display: grid;
-  justify-content: center;
-  align-items: center; */
-}
+
 .card-section {
   position: absolute;
   left: 3%;
-  top: 9%;
+  top:30%;
   display: flex;
   gap: 150px;
   width: 700vh;
